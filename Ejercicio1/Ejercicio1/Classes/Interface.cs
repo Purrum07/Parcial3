@@ -8,9 +8,7 @@ namespace Ejercicio1.Classes
 {
     interface Interface
     {
-        public string Talk()
-        {
-            return
-        }
+         string Talk();
+        
     }
 }

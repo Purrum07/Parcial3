@@ -9,10 +9,11 @@ namespace Ejercicio1.Classes
     class Dog : Interface
     {
         AnimalData perro;
+        string idioma = "Guau";
 
         public string Talk()
         {
-            throw new NotImplementedException();
+            return idioma;
         }
     }
 }

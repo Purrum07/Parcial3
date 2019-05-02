@@ -8,9 +8,9 @@ namespace Ejercicio1.Classes
 {
     class sound
     {
-        static public void  Sonido(Cat gatito )
+        public void  Sonido()
         {
-
+            
         }
     }
 }

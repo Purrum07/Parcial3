@@ -9,10 +9,16 @@ namespace Ejercicio1.Classes
     class Cat : Interface
     {
         AnimalData gato;
+        string idioma = "Miau";
 
         public string Talk()
         {
-            throw new NotImplementedException();
+            return idioma;
+        }
+
+        public void maullar(sound suena)
+        {
+            suena.Sonido();
         }
     }
 }
